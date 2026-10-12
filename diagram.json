@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "author": "Thakur Spoorthi Singh",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0.6, "left": -0.6, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": 277.1, "left": 95.8, "attrs": {} }
+  ],
+  "connections": [
+    [ "pot1:VCC", "uno:5V", "red", [ "v0" ] ],
+    [ "pot1:SIG", "uno:A0", "green", [ "v0" ] ],
+    [ "pot1:GND", "uno:GND.2", "black", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
